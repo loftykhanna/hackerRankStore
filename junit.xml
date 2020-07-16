@@ -1,0 +1,20 @@
+<testsuites name="jest tests" tests="7" failures="0" time="12.275">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-07-16T11:46:36" time="3.31" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.261">
+    </testcase>
+  </testsuite>
+  <testsuite name="Hacker Shop &lt;App/&gt;" errors="0" failures="0" skipped="0" timestamp="2020-07-16T11:46:36" time="8.965" tests="6">
+    <testcase classname="Hacker Shop &lt;App/&gt; Empty Cart" name="Hacker Shop &lt;App/&gt; Empty Cart" time="0.246">
+    </testcase>
+    <testcase classname="Hacker Shop &lt;App/&gt; Delete Item not present in cart Nothing should happen" name="Hacker Shop &lt;App/&gt; Delete Item not present in cart Nothing should happen" time="0.281">
+    </testcase>
+    <testcase classname="Hacker Shop &lt;App/&gt; Check Shipping cost (free shipping if Subtotal &gt; $50)" name="Hacker Shop &lt;App/&gt; Check Shipping cost (free shipping if Subtotal &gt; $50)" time="0.273">
+    </testcase>
+    <testcase classname="Hacker Shop &lt;App/&gt; Check Tax is present in the cart" name="Hacker Shop &lt;App/&gt; Check Tax is present in the cart" time="0.198">
+    </testcase>
+    <testcase classname="Hacker Shop &lt;App/&gt; Add item multiple times and deleting the item" name="Hacker Shop &lt;App/&gt; Add item multiple times and deleting the item" time="1.89">
+    </testcase>
+    <testcase classname="Hacker Shop &lt;App/&gt; Check total price" name="Hacker Shop &lt;App/&gt; Check total price" time="0.415">
+    </testcase>
+  </testsuite>
+</testsuites>

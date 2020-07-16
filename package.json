@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-app": "^1.4.3",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.9.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "save": "^2.3.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "expect": "^24.9.0",
+    "jest-junit-reporter": "^1.1.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "./node_modules/.bin/react-scripts start",
+    "pretest": "npm install",
+    "test": "rm -rf junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jest-junit": "^3.3.0",
+    "react-test-renderer": "^16.2.0"
+  }
+}
